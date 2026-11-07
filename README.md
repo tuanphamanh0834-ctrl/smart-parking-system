@@ -1,6 +1,7 @@
 =================================================================================================
  PRJ18 - BÃI ĐỖ XE THÔNG MINH CHẠY TRÊN ESP32        (bản MicroPython / Python)
 =================================================================================================
+
  BAO GỒM:
    2 đầu đọc RC522 (vào/ra), 2 servo barrier, LED xanh/đỏ, buzzer, cảm biến lửa,
    MQ-2, LCD I2C (tuỳ chọn), OLED SSD1306, web dashboard, WebSocket, lịch sử (flash), Telegram,
