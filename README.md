@@ -1,16 +1,15 @@
 """
 =================================================================================================
- PRJ09 - BÃI ĐỖ XE THÔNG MINH CHẠY HOÀN TOÀN TRÊN ESP32        (bản MicroPython / Python)
+ PRJ18 - BÃI ĐỖ XE THÔNG MINH CHẠY TRÊN ESP32        (bản MicroPython / Python)
 =================================================================================================
- Chuyển từ sketch Arduino (banupdatecuoi.ino). Giữ nguyên nguyên lý, chu trình, giao thức:
- ESP32 tự lo: 2 đầu đọc RC522 (vào/ra), 2 servo barrier, LED xanh/đỏ, buzzer, cảm biến lửa,
- MQ-2, LCD I2C (tuỳ chọn), OLED SSD1306, web dashboard, WebSocket, lịch sử (flash), Telegram,
- đồng bộ giờ NTP, nạp code qua WiFi (WebREPL).
+ BAO GỒM:
+   2 đầu đọc RC522 (vào/ra), 2 servo barrier, LED xanh/đỏ, buzzer, cảm biến lửa,
+   MQ-2, LCD I2C (tuỳ chọn), OLED SSD1306, web dashboard, WebSocket, lịch sử (flash), Telegram,
+   đồng bộ giờ NTP, nạp code qua WiFi (WebREPL).
 
- GIAO TIẾP USB SERIAL VỚI HMI PYTHON (hmismart.py) - KHÔNG CẦN SỬA hmismart.py:
+ GIAO TIẾP USB SERIAL VỚI HMI PYTHON (hmismart.py) :
    BAUD = 115200, chọn cổng COM của ESP32.
    Lệnh nhận: S, I (mở vào), i (đóng vào), O (mở ra), o (đóng ra), T<epoch>.
-   (MicroPython dùng chính UART0/USB làm stdin/stdout nên giao thức dòng chữ vẫn y hệt.)
 
  SƠ ĐỒ CHÂN (giống bản Arduino)
    RC522 chung bus : SCK 18 | MISO 19 | MOSI 23        (cấp 3V3, KHÔNG cấp 5V)
