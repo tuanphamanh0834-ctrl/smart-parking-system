@@ -1,4 +1,3 @@
-"""
 =================================================================================================
  PRJ18 - BÃI ĐỖ XE THÔNG MINH CHẠY TRÊN ESP32        (bản MicroPython / Python)
 =================================================================================================
@@ -34,6 +33,5 @@
      chạy song song trong lúc chờ (tương đương serviceNet() cũ).
    - Preferences  -> NVS (esp32.NVS).   LittleFS -> hệ thống file flash của MicroPython.
    - ArduinoOTA   -> WebREPL (mật khẩu 4-9 ký tự).   mDNS: tuỳ firmware, dùng hostname "parking".
-   - OLED dùng font 8x8 của framebuf (chữ lớn được phóng to bằng code).
 =================================================================================================
 """
